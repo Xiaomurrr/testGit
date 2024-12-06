@@ -12,8 +12,6 @@ int main() {
 	cin >> Ang;
 	// && and &
 
-	if (N & M) //также будет выводить true, тк числа ненулевые (false выведет, если все биты в числе 0)
-		cout << "N & M - true" << endl;
 	else
 		cout << "N & M - false" << endl;
 	// || and |
