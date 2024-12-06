@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+
+int main() {
+	int N, M;
+	setlocale(LC_ALL, "Russian"); // переключение локализации консоли
+	cout << "¬ведите N: ";
+	cin >> N;
+	cout << "¬ведите M: ";
+	cin >> M;
+	// && and &
+	if (N && M) //выведет true, если оба числа ненулевые
+		cout << "N && M - true" << endl;
+	else
+		cout << "N && M - false" << endl;
+
+	if (N & M) //также будет выводить true, тк числа ненулевые (false выведет, если все биты в числе 0)
+		cout << "N & M - true" << endl;
+	else
+		cout << "N & M - false" << endl;
+	// || and |
+	if (N || M) //выведет true, если одно число ненулевое
+		cout << "N || M - true" << endl;
+	else
+		cout << "N || M - false" << endl;
+	if (N | M)
+		cout << "N | M - true" << endl;
+	else
+		cout << "N | M - false" << endl;
+
+	// ~ and !
+	if (!N)
+		cout << "!N - true" << endl;
+	else
+		cout << "!N - false" << endl;
+	if (~N)
+		cout << "~N - true" << endl;
+	else
+		cout << "~N - false" << endl;
+
+	return 0;
+}
