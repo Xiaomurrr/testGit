@@ -30,15 +30,17 @@ int main() {
 	else
 		cout << "N | M - false" << endl;
 
-	// ~ and !
-	if (!N)
-		cout << "!N - true" << endl;
-	else
-		cout << "!N - false" << endl;
-	if (~N)
-		cout << "~N - true" << endl;
-	else
-		cout << "~N - false" << endl;
+	
+	/
+		.
+		/
+		kl
+		k
+		kh
+		k
+		f
+
+
 
 	return 0;
 }
