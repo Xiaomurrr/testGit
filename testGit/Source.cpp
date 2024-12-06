@@ -4,12 +4,12 @@
 using namespace std;
 
 int main() {
-	int N, M;
+	int N, Ang;
 	setlocale(LC_ALL, "Russian"); // переключение локализации консоли
 	cout << "¬ведите N: ";
 	cin >> N;
 	cout << "¬ведите M: ";
-	cin >> M;
+	cin >> Ang;
 	// && and &
 	if (N && M) //выведет true, если оба числа ненулевые
 		cout << "N && M - true" << endl;
