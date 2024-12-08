@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	int N, Ang;
-	setlocale(LC_ALL, "Angelina"); // переключение локализации консоли
+	setlocale(LC_ALL, "Russian"); // переключение локализации консоли
 	cout << "Введите N: ";
 	cin >> N;
 	cout << "Введите M: ";
