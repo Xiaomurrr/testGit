@@ -5,8 +5,19 @@ using namespace std;
 
 int main() {
 	int N, Ang;
-	setlocale(LC_ALL, "Любятинская"); // переключение локализации консоли
+	setlocale(LC_ALL, "Я ИЗМЕНИЛ ЭТУ СТРОКУ И ЕЩЕ НИЖЕ"); // переключение локализации консоли
+	cout << "Введите N: "; 
 	cout << "Введите N: ";
+	cin >> N;
+	cout << "Введите N: ";
+	cin >> N;
+	cout << "Введите N: ";
+	cin >> N;
+	cout << "Введите N: "; cout << "Введите N: ";
+	cin >> N; cout << "Введите N: ";
+	cin >> N; cout << "Введите N: ";
+	cin >> N;
+	cin >> N;
 	cin >> N;
 	cout << "Введите M: ";
 	cin >> Ang;
